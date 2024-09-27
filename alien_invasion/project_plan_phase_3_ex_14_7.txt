@@ -1,0 +1,17 @@
+Project Plan Phase 3 - Expanding The Game
+
+Make aliens jitter-pause for a couple seconds, then shoot down at high speed.
+Progressively more difficult at each level,
+2 aliens at level 1, 4 at level 2 and so on.
+Use the random module to randomize the alien that will shoot down.
+The rest of the behavior will be the same.
+
+What do I require?
+Make a second alien pygame.sprite.Group() for the high speed aliens in
+[alien_invasion].
+Remove the randomized aliens from the original group and add them to the
+second group.
+Apply the new behavior to the aliens in the second group in [alien].
+The rest of the behaviors should remain the same.
+Add a behavior in [settings] so that each time the player progresses to a new
+level, another 2 aliens will turn into high speed aliens.
