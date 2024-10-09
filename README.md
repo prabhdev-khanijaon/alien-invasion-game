@@ -24,6 +24,8 @@ High scores are stored and displayed, ensuring players can track their progress.
 
 Real-time tracking of player score, level, and remaining ships using a scoreboard system.
 
+This repository also has another version of the 'Alien Invasion' game - 'Sideways Shooter': Where the orientation of the game is sideways. And the difficulty progression and nuances of the game are different.
+
 ### Game Logic:
 Aliens move in fleets and drop down when they reach the screen edges.
 
